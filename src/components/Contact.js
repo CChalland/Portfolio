@@ -39,7 +39,7 @@ const Contact = () => {
 							currently taking an online course on Machine Learning, by Stanford University through
 							Coursera.org, to deepen my understanding of AI. I'm currently looking for a Software Engineer or
 							Web Developer position preferably in company that supplies hardware with a integrable program
-							face. If you have any questions, please feel free to send me an email.
+							face. If you have any questions, please fill out the form below and I will reply you shortly.
 						</p>
 					</div>
 					{/* /Main Title */}

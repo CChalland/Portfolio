@@ -1,71 +1,8 @@
 import { useEffect, useState } from "react";
 import { dataImage } from "../utilits";
+import { data } from "../sliderProps";
 
 const Modalbox = ({ close, value }) => {
-	const data = [
-		{
-			id: 0,
-			name: "Blue Lemon",
-			desc: [
-				{
-					p: "Sed ornare tellus a odio bibendum, at tristique sapien malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Sed sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis risus convallis in.",
-				},
-			],
-			github: "#",
-			link: "#",
-			img: "img/portfolio/1.jpg",
-			tag: "design, vector",
-		},
-		{
-			id: 1,
-			name: "Ultrasonic Guided RC Car",
-			desc: [
-				{
-					p: "This project uses machine code on a micro-chip processor for ultrasonic sensors to communicate with the remote control car's servo motors that supply the car's drive-train power. By determining the desired wavelength of the ultrasonic sensor, representing the distance until the RC car has to make an action, I can customize the precision of the ultrasonic guidance of the RC car. Please check back later, updating files.",
-				},
-			],
-			github: "https://github.com/CChalland/Ultrasound-RC-Car",
-			link: "",
-			img: "img/portfolio/ultrasonic-sensors-rc-car.jpg",
-			tag: "C",
-		},
-		{
-			id: 2,
-			name: "Uchiha",
-			desc: [
-				{
-					p: "Uchiha is a app that analyzes human faces. Uchiha uses the computer’s webcam to track human faces, determining which emotion is expressing. Uchiha then overlays various icons over the human faces to indicate the emotion each face is expressing.",
-				},
-			],
-			github: "https://github.com/CChalland/Uchiha",
-			link: "",
-			img: "img/portfolio/emotions-Uchiha.jpeg",
-			tag: "VueJS",
-		},
-		{
-			id: 3,
-			name: "Student Portal",
-			desc: [
-				{
-					p: "This project was built with my group from Stranger Strings Actualize class using Ruby on Rails for the back-end and VueJS with axios for the front-end, mimicking a education student portal that can be used for schools.",
-				},
-			],
-			github: "https://github.com/CChalland/Student-Portal",
-			link: "https://cchalland-student-portal.herokuapp.com/#/show",
-			img: "img/portfolio/student-portal.png",
-			tag: "Ruby on Rails",
-		},
-		{
-			id: 4,
-			name: "Notes",
-			desc: [{ p: "This project mimicking the Mac Notes app using ReactJS as my front-end." }],
-			github: "https://github.com/CChalland/Notes-app-ReactJS",
-			link: "https://cchalland-notes-react-app.herokuapp.com",
-			img: "img/portfolio/notes-example.jpg",
-			tag: "ReatJS",
-		},
-	];
-
 	const [index, setIndex] = useState(value);
 	useEffect(() => {
 		dataImage();
@@ -95,17 +32,17 @@ const Modalbox = ({ close, value }) => {
 				<div className="modal_content">
 					<div className="modal_in">
 						{data.map(
-							(d, i) =>
-								i + 1 == index && (
-									<div key={i}>
-										<p className="fn__cat">{d.tag}</p>
-										<h3 className="fn__title">{d.name}</h3>
+							(item, key) =>
+								item.id == index && (
+									<div key={item.id}>
+										<p className="fn__cat">{item.tag}</p>
+										<h3 className="fn__title">{item.name}</h3>
 										<div className="img_holder">
 											<img src="/img/thumb/square.jpg" alt="" />
-											<div className="abs_img" data-bg-img={d.img} />
+											<div className="abs_img" data-bg-img={item.img} />
 										</div>
-										{d.desc.map((des, i) => (
-											<p key={i} className="fn__desc">
+										{item.desc.map((des, key) => (
+											<p key={key} className="fn__desc">
 												{des.p}
 											</p>
 										))}
