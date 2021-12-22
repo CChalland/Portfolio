@@ -4,6 +4,7 @@ import { dataImage } from "../utilits";
 const Modalbox = ({ close, value }) => {
 	const data = [
 		{
+			id: 0,
 			name: "Blue Lemon",
 			desc: [
 				{
@@ -16,6 +17,7 @@ const Modalbox = ({ close, value }) => {
 			tag: "design, vector",
 		},
 		{
+			id: 1,
 			name: "Ultrasonic Guided RC Car",
 			desc: [
 				{
@@ -28,6 +30,7 @@ const Modalbox = ({ close, value }) => {
 			tag: "C",
 		},
 		{
+			id: 2,
 			name: "Uchiha",
 			desc: [
 				{
@@ -40,6 +43,7 @@ const Modalbox = ({ close, value }) => {
 			tag: "VueJS",
 		},
 		{
+			id: 3,
 			name: "Student Portal",
 			desc: [
 				{
@@ -52,6 +56,7 @@ const Modalbox = ({ close, value }) => {
 			tag: "Ruby on Rails",
 		},
 		{
+			id: 4,
 			name: "Notes",
 			desc: [{ p: "This project mimicking the Mac Notes app using ReactJS as my front-end." }],
 			github: "https://github.com/CChalland/Notes-app-ReactJS",

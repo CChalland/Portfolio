@@ -5,6 +5,7 @@ import Modalbox from "./Modalbox";
 
 const data = [
 	{
+		id: 0,
 		name: "Blue Lemon",
 		desc: [
 			{
@@ -17,6 +18,7 @@ const data = [
 		tag: "design, vector",
 	},
 	{
+		id: 1,
 		name: "Ultrasonic Guided RC Car",
 		desc: [
 			{
@@ -29,6 +31,7 @@ const data = [
 		tag: "C",
 	},
 	{
+		id: 2,
 		name: "Uchiha",
 		desc: [
 			{
@@ -41,6 +44,7 @@ const data = [
 		tag: "VueJS",
 	},
 	{
+		id: 3,
 		name: "Student Portal",
 		desc: [
 			{
@@ -53,6 +57,7 @@ const data = [
 		tag: "Ruby on Rails",
 	},
 	{
+		id: 4,
 		name: "Notes",
 		desc: [{ p: "This project mimicking the Mac Notes app using ReactJS as my front-end." }],
 		github: "https://github.com/CChalland/Notes-app-ReactJS",
@@ -64,7 +69,7 @@ const data = [
 
 const Portfolio = () => {
 	const [modal, setModal] = useState(false);
-	const [modalValue, setModalValue] = useState(null);
+	const [modalValue, setModalValue] = useState(0);
 	return (
 		<section id="portfolio">
 			{modal && <Modalbox close={setModal} value={modalValue} />}
