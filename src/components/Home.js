@@ -1,4 +1,4 @@
-const Home = () => {
+export default function Home() {
 	return (
 		<section id="home">
 			<div className="container">
@@ -18,6 +18,4 @@ const Home = () => {
 			</div>
 		</section>
 	);
-};
-
-export default Home;
+}

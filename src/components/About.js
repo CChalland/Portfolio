@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const About = () => {
+export default function About() {
 	const [toggleList, setToggleList] = useState("tab1");
 	const activeList = (value) => (value === toggleList ? "active" : "");
 	const birthDay = new Date(1993, 4, 19);
@@ -279,6 +279,4 @@ const About = () => {
 			</div>
 		</section>
 	);
-};
-
-export default About;
+}
