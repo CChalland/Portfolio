@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { dataImage } from "../utilits";
 import { data } from "../sliderProps";
 
-const Modalbox = ({ close, value }) => {
+export default function Modalbox({ close, value }) {
 	const [index, setIndex] = useState(value);
 	useEffect(() => {
 		dataImage();
@@ -83,6 +83,4 @@ const Modalbox = ({ close, value }) => {
 			</div>
 		</div>
 	);
-};
-
-export default Modalbox;
+}

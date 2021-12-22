@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const PanelContent = () => {
+export default function PanelContent() {
 	useEffect(() => {
 		const Typed = require("typed.js");
 		new Typed(".animated_title", {
@@ -42,6 +42,4 @@ const PanelContent = () => {
 			</div>
 		</div>
 	);
-};
-
-export default PanelContent;
+}

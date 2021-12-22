@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { data, portfolioSliderProps } from "../sliderProps";
 import Modalbox from "./Modalbox";
 
-const Portfolio = () => {
+export default function Portfolio() {
 	const [modal, setModal] = useState(false);
 	const [modalValue, setModalValue] = useState(0);
 	return (
@@ -68,6 +68,4 @@ const Portfolio = () => {
 			</div>
 		</section>
 	);
-};
-
-export default Portfolio;
+}

@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { testimonialsSliderProps } from "../sliderProps";
-const Testimonials = () => {
+
+export default function Testimonials() {
 	return (
 		<section id="testimonials">
 			<div className="container">
@@ -58,6 +59,4 @@ const Testimonials = () => {
 			</div>
 		</section>
 	);
-};
-
-export default Testimonials;
+}

@@ -1,5 +1,9 @@
 import { useState } from "react";
-const Contact = () => {
+import Botpoison from "@botpoison/browser";
+import axios from "axios";
+
+export default function Contact({ botPoison }) {
+	const botpoison = new Botpoison({ publicKey: botPoison });
 	const [form, setForm] = useState({ email: "", name: "", phone: "", msg: "" });
 	const [active, setActive] = useState(null);
 	const [error, setError] = useState(false);
@@ -11,6 +15,23 @@ const Contact = () => {
 	const onSubmit = (e) => {
 		e.preventDefault();
 		if (email && name && phone && msg) {
+			botpoison.challenge().then(({ solution }) => {
+				axios
+					.post("https://submit-form.com/wYoutZR2", {
+						message: msg,
+						_botpoison: solution,
+						_email: {
+							from: email,
+							subject: `${name} - ${phone}`,
+						},
+					})
+					.then(function (response) {
+						console.log(response);
+					})
+					.catch(function (response) {
+						console.error(response);
+					});
+			});
 			setSuccess(true);
 			setTimeout(() => {
 				setForm({ email: "", name: "", phone: "", msg: "" });
@@ -23,6 +44,7 @@ const Contact = () => {
 			}, 2000);
 		}
 	};
+
 	return (
 		<section id="contact">
 			<div className="container">
@@ -140,6 +162,4 @@ const Contact = () => {
 			</div>
 		</section>
 	);
-};
-
-export default Contact;
+}
