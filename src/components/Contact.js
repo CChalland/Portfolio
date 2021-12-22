@@ -32,8 +32,14 @@ const Contact = () => {
 						<h3 className="subtitle">Contact</h3>
 						<h3 className="title">Get In Touch</h3>
 						<p className="desc">
-							If you have any suggestion, project or even you want to say “hello”, please fill out the form
-							below and I will reply you shortly.
+							My passion is hardware & coding, I'm always knocking on door for opportunities to integrate both
+							my passions together. Being able to show my creativity by using my knowledge on building
+							hardware that is compatible with running and executing dynamic code. I just finished a coding
+							bootcamp at Actualize and is enrolled in their apprenticeship program. During my free time, I'm
+							currently taking an online course on Machine Learning, by Stanford University through
+							Coursera.org, to deepen my understanding of AI. I'm currently looking for a Software Engineer or
+							Web Developer position preferably in company that supplies hardware with a integrable program
+							face. If you have any questions, please feel free to send me an email.
 						</p>
 					</div>
 					{/* /Main Title */}
