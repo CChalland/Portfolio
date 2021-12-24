@@ -6,6 +6,7 @@ import Modalbox from "./Modalbox";
 export default function Portfolio() {
 	const [modal, setModal] = useState(false);
 	const [modalValue, setModalValue] = useState(0);
+
 	return (
 		<section id="portfolio">
 			{modal && <Modalbox close={setModal} value={modalValue} />}
