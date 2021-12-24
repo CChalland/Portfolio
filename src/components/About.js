@@ -141,7 +141,7 @@ export default function About() {
 												</div>
 												<h3>Software Engineer</h3>
 												<p>
-													Created the blockchain with Javascript to store transactions of sport bets. Created
+													Created the blockchain with Javascript to store transactions of sports bets. Created
 													decentralized database with an algorithm to add and keep track of multiple network
 													nodes. Express.js server to orchestrate the action and interact with the blockchain
 													and network nodes.
