@@ -170,8 +170,12 @@ export default function About() {
 												</div>
 												<h3>Full-Stack Developer</h3>
 												<p>
-													Created a CRM (Customer Relation Manager) using full-stack Ruby on Rails that keeps
-													track of conversations with potential customers.{" "}
+													On the software development team in an agile environment, I added features to the
+													real CRM that Actualize uses to manage its prospective applicants. The CRM allows a
+													user to call and text a lead through the Twilio API and worked on features involving
+													its UI, including an internal restructuring that transformed the app into a Single
+													Page Application, making it much easier to use. This app uses Ruby, Rails,
+													JavaScript, and VueJS.{" "}
 												</p>
 											</div>
 										</li>
