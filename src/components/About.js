@@ -18,12 +18,7 @@ export default function About() {
 						<h3 className="subtitle">About Me</h3>
 						<h3 className="title">Biography</h3>
 						<p className="desc">
-							{`I've been fascinated with technology ever since I was able to remember. 
-                I started building computers when I was 12 years old, which lead to my interest in programming. 
-                I went to the University of Denver to study computer engineering. Then transfered to the University of Colorado for electrical engineering. 
-                While I was school, I realized that programming was in high demand and would rather learn from my peers. 
-                I'm a Full-Stack Developer with over 8 years of experience. I'm from Chicago. I like work with new people. 
-                New people are new experiences.`}
+							{`I've been fascinated with technology ever since I was able to remember. I started building computers when I was 12 years old, which lead to my interest in programming. I went to the University of Denver to study computer engineering. Then transferred to the University of Colorado for electrical engineering. While I was in school, I realized that programming was in high demand and would rather learn from my peers. I'm a Full-Stack Developer with over 8 years of experience. I'm from Chicago. I like working with new people. New people are new experiences.`}
 						</p>
 					</div>
 					{/* /Main Title */}
