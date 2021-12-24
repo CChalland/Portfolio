@@ -46,6 +46,28 @@ export default function Modalbox({ close, value }) {
 												{des.p}
 											</p>
 										))}
+										<div className="resumo_fn_about_info about_left">
+											<table>
+												<tbody>
+													<tr>
+														<th>GitHub</th>
+														<th>
+															<a href={item.github} target="_blank">
+																Link
+															</a>
+														</th>
+													</tr>
+													<tr>
+														<th>Project</th>
+														<th>
+															<a href={item.link} target="_blank">
+																Link
+															</a>
+														</th>
+													</tr>
+												</tbody>
+											</table>
+										</div>
 									</div>
 								)
 						)}
