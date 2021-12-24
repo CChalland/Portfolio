@@ -136,11 +136,16 @@ export default function About() {
 										<li>
 											<div className="item">
 												<div className="item_top">
-													<h5>BetToken</h5>
+													<h5>ChalkCoin</h5>
 													<span>( 2020 — 2021 )</span>
 												</div>
 												<h3>Software Engineer</h3>
-												<p>Created the blockchain with Javascript to store transactions of sport bets. </p>
+												<p>
+													Created the blockchain with Javascript to store transactions of sport bets. Created
+													decentralized database with an algorithm to add and keep track of multiple network
+													nodes. Express.js server to orchestrate the action and interact with the blockchain
+													and network nodes.
+												</p>
 											</div>
 										</li>
 										<li>
