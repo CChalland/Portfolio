@@ -18,12 +18,7 @@ export default function About() {
 						<h3 className="subtitle">About Me</h3>
 						<h3 className="title">Biography</h3>
 						<p className="desc">
-							{`I've been fascinated with technology ever since I was able to remember. 
-                I started building computers when I was 12 years old, which lead to my interest in programming. 
-                I went to the University of Denver to study computer engineering. Then transfered to the University of Colorado for electrical engineering. 
-                While I was school, I realized that programming was in high demand and would rather learn from my peers. 
-                I'm a Full-Stack Developer with over 8 years of experience. I'm from Chicago. I like work with new people. 
-                New people are new experiences.`}
+							{`I've been fascinated with technology ever since I was able to remember. I started building computers when I was 12 years old, which lead to my interest in programming. I went to the University of Denver to study computer engineering. Then transferred to the University of Colorado for electrical engineering. While I was in school, I realized that programming was in high demand and would rather learn from my peers. I'm a Full-Stack Developer with over 8 years of experience. I'm from Chicago. I like working with new people. New people are new experiences.`}
 						</p>
 					</div>
 					{/* /Main Title */}
@@ -141,7 +136,7 @@ export default function About() {
 												</div>
 												<h3>Software Engineer</h3>
 												<p>
-													Created the blockchain with Javascript to store transactions of sport bets. Created
+													Created the blockchain with Javascript to store transactions of sports bets. Created
 													decentralized database with an algorithm to add and keep track of multiple network
 													nodes. Express.js server to orchestrate the action and interact with the blockchain
 													and network nodes.
@@ -170,8 +165,12 @@ export default function About() {
 												</div>
 												<h3>Full-Stack Developer</h3>
 												<p>
-													Created a CRM (Customer Relation Manager) using full-stack Ruby on Rails that keeps
-													track of conversations with potential customers.{" "}
+													On the software development team in an agile environment, I added features to the
+													real CRM that Actualize uses to manage its prospective applicants. The CRM allows a
+													user to call and text a lead through the Twilio API and worked on features involving
+													its UI, including an internal restructuring that transformed the app into a Single
+													Page Application, making it much easier to use. This app uses Ruby, Rails,
+													JavaScript, and VueJS.{" "}
 												</p>
 											</div>
 										</li>
