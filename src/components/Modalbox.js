@@ -52,7 +52,7 @@ export default function Modalbox({ close, value }) {
 													<tr>
 														<th>GitHub</th>
 														<th>
-															<a href={item.github} target="_blank">
+															<a href={item.github} target="_blank" rel="noreferrer">
 																Link
 															</a>
 														</th>
@@ -60,7 +60,7 @@ export default function Modalbox({ close, value }) {
 													<tr>
 														<th>Project</th>
 														<th>
-															<a href={item.link} target="_blank">
+															<a href={item.link} target="_blank" rel="noreferrer">
 																Link
 															</a>
 														</th>
