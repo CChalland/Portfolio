@@ -136,10 +136,7 @@ export default function About() {
 												</div>
 												<h3>Software Engineer</h3>
 												<p>
-													Created the blockchain with Javascript to store transactions of sports bets. Created
-													decentralized database with an algorithm to add and keep track of multiple network
-													nodes. Express.js server to orchestrate the action and interact with the blockchain
-													and network nodes.
+													{"Created the blockchain with Javascript to store transactions of sports bets. Created decentralized database with an algorithm to add and keep track of multiple network nodes. Express.js server to orchestrate the action and interact with the blockchain and network nodes."}
 												</p>
 											</div>
 										</li>
@@ -151,9 +148,7 @@ export default function About() {
 												</div>
 												<h3>Cybersecurity Consultant </h3>
 												<p>
-													Executed SQL injection to alter or expose Query vulnerabilities and access databases
-													in a test safe environment (this allowed us to develop better security practices to
-													protect against threats).{" "}
+													{"Executed SQL injection to alter or expose Query vulnerabilities and access databases in a test safe environment (this allowed us to develop better security practices to protect against threats)."}
 												</p>
 											</div>
 										</li>
@@ -165,12 +160,7 @@ export default function About() {
 												</div>
 												<h3>Full-Stack Developer</h3>
 												<p>
-													On the software development team in an agile environment, I added features to the
-													real CRM that Actualize uses to manage its prospective applicants. The CRM allows a
-													user to call and text a lead through the Twilio API and worked on features involving
-													its UI, including an internal restructuring that transformed the app into a Single
-													Page Application, making it much easier to use. This app uses Ruby, Rails,
-													JavaScript, and VueJS.{" "}
+													{"On the software development team in an agile environment, I added features to the real CRM that Actualize uses to manage its prospective applicants. The CRM allows a user to call and text a lead through the Twilio API and worked on features involving its UI, including an internal restructuring that transformed the app into a Single Page Application, making it much easier to use. This app uses Ruby, Rails, JavaScript, and VueJS."}
 												</p>
 											</div>
 										</li>
@@ -192,8 +182,7 @@ export default function About() {
 												</div>
 												<h3>Cybersecurity</h3>
 												<p>
-													After understanding basic knowledge of malware and it's data structure, expanded my
-													knowledge on how to detect them and prevention.{" "}
+													{"After understanding basic knowledge of malware and it's data structure, expanded my knowledge on how to detect them and prevention."}
 												</p>
 											</div>
 										</li>
@@ -215,8 +204,7 @@ export default function About() {
 												</div>
 												<h3>Computer Engineering/Computer Science</h3>
 												<p>
-													This is where I started coding heavily, and created an RC car controlled by
-													ultrasonic sensors in C.{" "}
+													{"This is where I started coding heavily, and created an RC car controlled by ultrasonic sensors in C."}
 												</p>
 											</div>
 										</li>
